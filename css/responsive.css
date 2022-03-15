@@ -1,0 +1,323 @@
+@media all and (max-width: 1024px) {
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+#articles .article--lists li {
+  width: 250px;
+  height: 250px;
+}
+/* ---------------------------------------------------------------
+------------------ PAGE.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* Page- partnership */
+#p-partner .pts--desc .pts--img {
+  padding-top: 80%;
+}
+#p-partner .pts--contents {
+  width: 90%;
+}
+
+}
+@media all and (max-width: 768px){
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+/* title div box */
+.title-lg {
+  font-size: 2em;
+}
+.title-md {
+  font-size: 1.4em;
+}
+.title-sm {
+  font-size: 1em;
+}
+
+.desc-font {
+  font-size: 0.9em;
+}
+.desc-font-sm {
+  font-size: 0.75em;
+}
+#arrow-up {
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+}
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* HEADER */
+#header .containerBox {
+  padding-bottom: 20px;
+}
+#header .menu-toggle {
+  display: block;
+}
+#header .nav {
+  display: none;
+}
+
+/* INTRO */
+#intro .containerBox {
+  width: 70%;
+}
+
+/* ARTICLES */
+#articles .article--lists li {
+  width: 200px;
+  height: 200px;
+}
+
+/* ABOUT */
+#about .containerBox {
+  flex-direction: column;
+  align-items: center;
+}
+#about .about__img {
+  width: 300px;
+  height: 350px;
+}
+#about .about__text {
+  width: 85%;
+  margin-left: 0;
+  margin-top: 45px;
+  text-align: center;
+}
+
+/* DESTINATIONS */
+#destination .dtn--lists li {
+  height: 400px;
+}
+
+/* RESERVATION */
+#reservation .section--bg {
+  height: 400px;
+}
+
+/* Footer */
+#footer .foot--contents {
+  flex-direction: column;
+}
+#footer .foot--contents .logo {
+  order: 1;
+}
+#footer .foot--contents .f__links {
+  order: 2;
+  width: 100%;
+  margin: 30px 0;
+}
+#footer .foot--contents .f__info {
+  order: 3;
+  width: 100%;
+}
+
+/* ---------------------------------------------------------------
+------------------ PAGE.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* page-articles */
+#p-articles .article--lists li .imageBox {
+  width: 200px;
+  height: 200px;
+}
+
+/* About */
+/* Page-About us */
+#p-aboutus .storyBox {
+  flex-direction: column;
+  padding: 50px 30px 80px;
+}
+#p-aboutus .storyBox .imageBox {
+  width: 100%;
+  padding-top: 65%;
+}
+#p-aboutus .storyBox .story__text {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+/* Page - location */
+#p-location .location--lists li {
+  width: 30%;
+  margin-right: 10px;
+}
+
+/* Page- partnership */
+#p-partner .pts--desc {
+  flex-direction: column;
+  height: 100%;
+}
+#p-partner .pts--desc .pts__text {
+  width: 100%;
+  margin: 120px 0 50px;
+}
+
+#p-partner .pts--desc .pts--img {
+  width: 100%;
+  height: auto;
+}
+#p-partner .pts--desc .pts__text .textBox a {
+  font-size: 1.5em;
+}
+#p-partner .pts--contents .textBox .desc-font {
+  padding: 20px 0 20px 20px;
+}
+/* contents */
+#p-partner .pts--contents {
+  padding: 80px 20px;
+}
+
+/* Page - Contact */
+#p-contact .containerBox {
+  height: auto;
+}
+#p-contact .contact__text {
+  float: none;
+  width: 100%;
+  margin-top: 0;
+}
+#p-contact .contact__form {
+  float: none;
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* Page - Destination(main) */
+#p-destination .rcd--place .rcdp__contents {
+  flex-direction: column-reverse;
+  height: auto;
+}
+#p-destination .rcd--place .rcdp__contents .rcdp__conts__text,
+#p-destination .rcd--place .rcdp__contents .rcdp__conts__img {
+  width: 100%;
+}
+
+#p-destination .rcd--place .rcdp__contents .rcdp__conts__text {
+  padding: 50px 30px;
+}
+
+#p-destination .rcd--video .rcdv__contents .video__lists {
+  bottom: 15%;
+}
+#p-destination .rcd--video .rcdv__contents .video__lists li {
+  margin: 0 7px;
+}
+
+}
+
+@media all and (max-width:540px)  {
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+/* title div box */
+.title-lg {
+  font-size: 1.6em;
+}
+.title-md {
+  font-size: 1.2em;
+}
+.title-sm {
+  font-size: 0.95em;
+}
+
+.desc-font {
+  font-size: 0.85em;
+}
+.desc-font-sm {
+  font-size: 0.7em;
+}
+#arrow-up {
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* ARTICLES */
+#articles .article--lists li {
+  width: 110px;
+  height: 110px;
+}
+#articles .article--lists li .imageBox::before {
+  font-size: 0.8em;
+}
+
+/* ABOUT */
+#about .about__img {
+  width: 200px;
+  height: 250px;
+}
+
+/* ---------------------------------------------------------------
+------------------ PAGE.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* page-articles */
+#p-articles .article--lists li .imageBox {
+  width: 100px;
+  height: 100px;
+}
+#p-articles .article--lists li .article__text .desc-font {
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
+}
+
+/* About */
+/* Page-aboutus */
+#p-aboutus .service .service__lists li {
+  width: 30%;
+}
+
+/* Page - location */
+#p-location .location--lists {
+  flex-direction: column;
+}
+#p-location .location--lists li {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+
+/* Page - Contact */
+#p-contact .contact__text .text--wrap {
+  width: 80%;
+}
+
+
+/* Page - Destination(main) */
+#p-destination .rcd--place {
+  width: 100%;
+}
+
+#p-destination .rcd--video .rcdv__contents {
+  padding-top: 65%;
+}
+#p-destination .rcd--video .rcdv__contents .video__lists {
+  bottom: 20%;
+}
+
+#p-destination .rcd--attraction .rcda__contents {
+  text-align: center;
+}
+#p-destination .rcd--attraction .rcda__contents .textBox .desc-font {
+  width: 100%;
+}
+#p-destination .rcd--attraction .rcda__contents .textBox::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+#p-destination .rcd--attraction .rcda__contents .listsBox .attr__lists li .desc-font {
+  padding-right: 0;
+}
+#p-destination .rcd--attraction .rcda__contents .nextBtn,
+#p-destination .rcd--attraction .rcda__contents .prevBtn {
+  display: block;
+}
+}

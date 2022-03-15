@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------
+--------------------Single: Article ------------------------
+--------------------------------------------------------- */
+#s-article .section--bg {
+  background: url(../images/article/page-articles/image_03.JPG) no-repeat center/cover;
+}
+#s-article .title {
+  margin-top: 80px;
+}
+#s-article .social-icons {
+  justify-content: center;
+  margin: 50px 0 10px;
+}
+#s-article hr {
+  width: 80%;
+  border-bottom: 1px solid var(--color-black);
+}
+#s-article .s-article--wrapper {
+  padding: 50px 5px 0;
+}
+#s-article .s-article--wrapper li .imageBox {
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#s-article .s-article--wrapper li .imageBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#s-article .s-article--wrapper li .s-article__text {
+  padding: 80px 0 120px;
+  text-align: center;
+}
+#s-article .s-article--wrapper li .s-article__text .desc-font {
+  margin-bottom: 20px;
+}
+
+#s-article .s-article--wrapper li .s-article__text .desc-font:last-child {
+  margin-bottom: 0;
+}
+
+
